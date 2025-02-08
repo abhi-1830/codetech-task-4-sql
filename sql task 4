@@ -1,0 +1,10 @@
+/*in cmd  i have pasted following code
+PS C:\Users\HP> Get-Content project_backup.sql | mysql -u root -p project_restored
+Enter password: ***********
+PS C:\Users\HP> Get-Content project_backup.sql | mysql -u root -p project_restored
+Enter password: ***********  */## this is done in cmd
+CREATE DATABASE project_restored;
+show tables;
+select * from customers; 
+##we restored data from project database to project_restored
+
